@@ -1,0 +1,30 @@
+{
+  "name": "flickr-hugo-embed",
+  "version": "0.1.0",
+  "description": "Print shortcodes to embed a set of images from an album on Flickr into Hugo",
+  "main": "bin.js",
+  "dependencies": {
+    "flickrapi": "^0.3.36",
+    "ini": "^1.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilm/flickr-hugo-embed.git"
+  },
+  "keywords": [
+    "flickr",
+    "hugo",
+    "images",
+    "embed"
+  ],
+  "author": "Nikhil Marathe <nsm.nikhil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilm/flickr-hugo-embed/issues"
+  },
+  "homepage": "https://github.com/nikhilm/flickr-hugo-embed#readme"
+}
