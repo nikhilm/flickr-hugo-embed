@@ -61,6 +61,9 @@ generates flickr shortcode for each photo in the photoset.
 
 You can put each code wherever you want to include the image in your site.
 
+The first run can take a little time as the Flickr API is introspected and
+cached.
+
 Copy over `flickr.html` to `layouts/shortcodes/` in your Hugo installation and you
 are ready to go!
 
