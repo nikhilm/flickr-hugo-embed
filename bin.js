@@ -29,7 +29,7 @@ flickrapi.tokenOnly({ api_key: config.api_key }, function(err, flickr) {
 
   function printHugoCaption(title, caption, link, source) {
     var sep = '"\n           "';
-    var embed = '{{% flickr "' + title + sep + caption + sep + link + sep + source + '" %}}';
+    var embed = '{{% flickr "' + title + sep + caption.replace('\n', ' ') + sep + link + sep + source + '" %}}';
     console.log(embed);
   }
 
